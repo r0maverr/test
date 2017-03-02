@@ -1,0 +1,35 @@
+.row, [class*="col-"]{
+    height: 100%;
+}
+[class*="col-"]{
+    padding: 50px 5px;
+}
+[class*="btn"]{
+    min-width: 120px;
+}
+button{
+    margin-right: 5px;
+}
+p{
+    margin: 10px 0;
+}
+span{
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    min-height: 30px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+input{
+    min-width: 1px;
+    width: 100%;
+}
+.img-block{
+    width: 100%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0 calc(50% - 50px);
+}
